@@ -1,0 +1,188 @@
+*{
+  font-family: 'Song Myung', serif;
+}
+html, body{
+    height: 100%; 
+    overflow: hidden;
+}
+
+body{
+  background: linear-gradient(90deg, rgba(0,73,140,0.4023984593837535) 33%, rgba(0,73,76,0.3267682072829131) 65%);
+  
+}
+#wrap{
+  margin: 0 auto;
+  width: 600px;
+}
+#comment{
+  position: relative;
+  background: linear-gradient(90deg, rgba(0,73,140,0.7497373949579832) 33%, rgba(0,73,76,0.49763655462184875) 65%);
+  padding: 20px 20px 20px 20px;
+  border-radius: 10px;
+  z-index: 1;
+  overflow: scroll;
+  height: 800px;
+  top: 375px; 
+}
+#headerwrap{
+  width: 600px;
+  border-radius: 10px;
+  z-index: 3;
+  border-radius: 10px;
+  /* background: linear-gradient(90deg, rgba(0,73,140,0.4023984593837535) 33%, rgba(0,73,76,0.3267682072829131) 65%); */
+  /* background: linear-gradient(0deg, rgba(0,73,76,0.38279061624649857) 0%, rgba(0,73,140,0.3743872549019608) 100%); */
+  background: linear-gradient(0deg, rgba(0,73,76,0.68531162464986) 0%, rgba(0,73,140,0.7777485994397759) 100%);
+  position: fixed;
+}
+
+ul{
+  list-style: none;
+}
+#head{
+  margin-top: 30px;
+  text-align: center;
+  text-shadow: 2px 2px 2px gray;
+  color: white;
+  font-size: 3rem;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+#write{
+  height: 140px;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(0,73,140,0.8057598039215687) 100%, rgba(0,212,255,1) 100%);
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px 20px 10px 20px;
+}
+#left{
+  float: left;
+  width: 230px;
+}
+
+.writename{
+  font-weight: bold;
+  color: white;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  
+}
+input{
+  margin-bottom: 5px;
+  
+}
+#namebox{
+  width: 300px;
+  height: 20px;
+  border-color: silver;
+  border-radius: 10px;
+}
+#commentbox{
+  width: 300px;
+  height: 50px;
+  border-color: silver;
+  border-radius: 10px;
+}
+#tweet{
+  border-radius: 10px;
+  margin-top: 25px;
+  width: 200px;
+  height: 100px;
+  font-weight: bold;
+  font-size: 40px;
+  color: #00498c;
+  float: right;
+}
+#tweet:hover{
+  cursor: pointer;
+  color:#fff;
+  transition:all 0.9s, color 0.3;
+  box-shadow:200px 0 0 0 rgba(0,0,0,0.5) inset;
+}
+#checktweet{
+  background: linear-gradient(90deg, rgba(0,73,140,0.9497373949579832) 33%, rgba(0,73,76,0.79763655462184875) 65%);
+  border-radius: 10px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  justify-content: space-between;
+}
+#newtweet{
+  color: #00498c;
+  border-radius: 10px;
+  width: 140px;
+  height: 35px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#refresh{
+  color: #00498c;
+  border-radius: 10px;
+  width: 140px;
+  height: 35px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+#refresh:hover{
+  cursor: pointer;
+  color:#fff;
+  transition:all 0.9s, color 0.3;
+  box-shadow:200px 0 0 0 rgba(0,0,0,0.5) inset;
+}
+#newtweet:hover{
+  cursor: pointer;
+  color:#fff;
+  transition:all 0.9s, color 0.3;
+  box-shadow:200px 0 0 0 rgba(0,0,0,0.5) inset;
+}
+
+.listitem{
+  padding: 10px 10px 10px 10px;
+  border-bottom: 1px solid white;
+}
+.view{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.name{
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+}
+.date{
+  color: white;
+  /* padding-top: 10px; */
+  
+}
+.content{
+  font-size: 1.3em;
+  color: white;
+  padding-bottom: 5px;
+}
+.name:hover{
+  cursor: pointer;
+  color: blanchedalmond;
+}
+#lastContent{
+  padding: 30px 10px 10px 10px;
+  text-align: center;
+  
+  /* border-bottom: 1px solid white; */
+}
+.lastLi{
+  padding-bottom: 15px;
+}
+#lastBird{
+  text-align: center;
+  color: white;
+  float: right;
+}
+input::placeholder {
+  color: #00498c;
+  opacity: 0.6;
+  padding-left: 10px;
+}
