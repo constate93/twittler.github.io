@@ -4,6 +4,8 @@
 html, body{
     height: 100%; 
     overflow: hidden;
+    /* padding-bottom: 30%; */
+    /* position: absolute; */
 }
 
 body{
@@ -13,26 +15,31 @@ body{
 #wrap{
   margin: 0 auto;
   width: 600px;
+  /* padding-bottom: 30%; */
+  /* position: relative; */
 }
 #comment{
   position: relative;
   background: linear-gradient(90deg, rgba(0,73,140,0.7497373949579832) 33%, rgba(0,73,76,0.49763655462184875) 65%);
   padding: 20px 20px 20px 20px;
   border-radius: 10px;
-  z-index: 1;
+  /* z-index: 1; */
   overflow: scroll;
-  height: 800px;
+  height: 540px;
+  /* padding-bottom: 30%; */
+  /* margin-bottom: 20%; */
   top: 375px; 
 }
 #headerwrap{
   width: 600px;
   border-radius: 10px;
-  z-index: 3;
+  /* z-index: 3; */
   border-radius: 10px;
   /* background: linear-gradient(90deg, rgba(0,73,140,0.4023984593837535) 33%, rgba(0,73,76,0.3267682072829131) 65%); */
   /* background: linear-gradient(0deg, rgba(0,73,76,0.38279061624649857) 0%, rgba(0,73,140,0.3743872549019608) 100%); */
   background: linear-gradient(0deg, rgba(0,73,76,0.68531162464986) 0%, rgba(0,73,140,0.7777485994397759) 100%);
   position: fixed;
+  margin-bottom: 10px;
 }
 
 ul{
@@ -170,8 +177,6 @@ input{
 #lastContent{
   padding: 30px 10px 10px 10px;
   text-align: center;
-  
-  /* border-bottom: 1px solid white; */
 }
 .lastLi{
   padding-bottom: 15px;
